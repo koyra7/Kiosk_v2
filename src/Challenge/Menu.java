@@ -1,4 +1,4 @@
-package Lv45;
+package Challenge;
 
 import java.util.ArrayList;
 
@@ -17,6 +17,8 @@ public class Menu {
         MenuList.add("Burgers");
         MenuList.add("Drinks");
         MenuList.add("Desserts");
+        MenuList.add("Orders");
+        MenuList.add("Cancel");
     }
 
     public ArrayList<String> getMenuList() {
