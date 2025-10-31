@@ -293,7 +293,6 @@ public class Kiosk {
             int object2 = Integer.parseInt(str);
 
             if (object2 == 1) {
-                sign = "D";
                 cart.add(new MenuItem(data.getDrinkItems().get(object - 1).getName(), data.getDrinkItems().get(object - 1).getPrice(), data.getDrinkItems().get(object - 1).getInfo()));
                 Category();
             } else {
@@ -302,6 +301,7 @@ public class Kiosk {
         }
 
         if (sign.equals("C")) { //
+            sign = "D";
             System.out.println(data.getDessertItems().get(object - 1).getName() + " | W " + data.getDessertItems().get(object - 1).getPrice() + " | " + data.getDessertItems().get(object - 1).getInfo());
             System.out.println("위 메뉴를 장바구니에 추가하시겠습니까?");
             System.out.println("1. 확인    2. 취소");

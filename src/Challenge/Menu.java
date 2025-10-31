@@ -6,6 +6,7 @@ public class Menu {
 
     private ArrayList<String> MenuList = new ArrayList<>();
 
+
     // 첫번째 카테고리
     public Menu() {
         this.firstMenu();
